@@ -1,0 +1,51 @@
+# Poll the KSA master server hourly for the latest production version and append
+# it to builds.json when a new one appears. The master server's /version endpoint
+# is the game's own authoritative "latest" source (the same one the game queries
+# on launch); it only reports the newest production build, so this keeps the build
+# map current without a manual pull request each release.
+# The append logic lives in .github/scripts/update_builds.py.
+name: Update build map
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-build-map
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Fetch latest version and update builds.json
+        id: update
+        run: |
+          set -euo pipefail
+          resp="$(curl -fsS --max-time 30 --retry 3 --retry-delay 5 \
+            http://ksa-master1.rocketwerkz.com:8082/version || true)"
+          if [ -z "$resp" ]; then
+            echo "Master server unreachable, skipping this run."
+            echo "added=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "Master server response: $resp"
+          added="$(python3 .github/scripts/update_builds.py "$resp")"
+          echo "added=$added" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.update.outputs.added != ''
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add builds.json
+          git commit -m "Add build ${{ steps.update.outputs.added }} to the KSA build map"
+          git push
