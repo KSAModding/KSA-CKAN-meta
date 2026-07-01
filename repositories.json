@@ -1,0 +1,10 @@
+{
+    "repositories": [
+        {
+            "name":      "KSA-default",
+            "uri":       "https://github.com/KSAModding/KSA-CKAN-meta/archive/main.tar.gz",
+            "x_mirror":  false,
+            "x_comment": "Well-known default CKAN metadata repository for KSA. x_mirror flips to true once Internet Archive mirroring is set up with the indexer."
+        }
+    ]
+}
