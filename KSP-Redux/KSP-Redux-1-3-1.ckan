@@ -6,12 +6,12 @@
   "version": "1.3.1",
   "author": "PlazmaBoltz",
   "license": "MIT",
-  resources [
+  "resources": [
     "spacedock": "https://spacedock.info/mod/4040/KSP-Redux",
     "homepage": "https://forums.ahwoo.com/threads/ksp-redux.338/",
     "repository": "https://github.com/PlazmaBoltz/KSP-Redux"
   ],
-  tags [
+  "tags": [
     "planet-pack"
   ],
   "ksp_version": "2026.6.9.4750",
