@@ -20,6 +20,12 @@
   "download_hash" [
     "sha256": "sha256:4257617e6cedf38c875846f5521dde183c525ad95657be19667bbe5d5e5b32af"
   ],
+  "install": [
+      {
+          "find": "KSP-Redux",
+           "install_to": "Content"
+      }
+  ],
   "download_content_type": "application/zip",
   "install_size": 26329594,
   "x_generated_by": "netkan"
