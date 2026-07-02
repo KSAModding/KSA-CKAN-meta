@@ -1,0 +1,30 @@
+{
+    "spec_version": 1,
+    "identifier": "AutoRemoveFinishedBurns",
+    "name": "AutoRemoveFinishedBurns",
+    "abstract": "Auto-remove finished burns from the burn plan in Kitten Space Agency.",
+    "author": "Maxi",
+    "version": "0.1.13",
+    "ksp_version": "2026.6.0.4750",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/autoremovefinishedburns.928/",
+        "spacedock": "https://spacedock.info/mod/4255/AutoRemoveFinishedBurns",
+        "repository": "https://github.com/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns",
+        "bugtracker": "https://github.com/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns/issues"
+    },
+    "tags": [
+        "control"
+    ],
+    "download": "https://github.com/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns/releases/download/v0.1.13/AutoRemoveFinishedBurns.zip",
+    "download_size": 9307,
+    "download_hash": {
+        "sha1": "D8F762C4F1B627D8B66EED8ED46900F162F7AA06",
+        "sha256": "31B741B761EAB1958703AF5F13F7AB7344EC20713F5B5E6A09C8F7BA0CD611B7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 20054,
+    "release_date": "2026-06-27T11:04:28Z",
+    "x_generated_by": "netkan"
+}

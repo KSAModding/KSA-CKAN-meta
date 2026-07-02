@@ -1,0 +1,30 @@
+{
+    "spec_version": 1,
+    "identifier": "StageInfo",
+    "name": "StageInfo",
+    "abstract": "Extra info in the stock Stage/Sequence window for Kitten Space Agency.",
+    "author": "Maxi",
+    "version": "0.4.7",
+    "ksp_version": "2026.6.0.4750",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/stageinfo.905/",
+        "spacedock": "https://spacedock.info/mod/4256/StageInfo",
+        "repository": "https://github.com/Maximilian-Nesslauer/KSA-StageInfo",
+        "bugtracker": "https://github.com/Maximilian-Nesslauer/KSA-StageInfo/issues"
+    },
+    "tags": [
+        "information"
+    ],
+    "download": "https://github.com/Maximilian-Nesslauer/KSA-StageInfo/releases/download/v0.4.7/StageInfo.zip",
+    "download_size": 35106,
+    "download_hash": {
+        "sha1": "F37493F161D05F0D20D5F0490E3CE498F0E8A415",
+        "sha256": "F8EAF17AE25A4A8888D481F2323B9BF89161312279ED14844CB0C9F59421DA96"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 79418,
+    "release_date": "2026-06-27T11:07:35Z",
+    "x_generated_by": "netkan"
+}
