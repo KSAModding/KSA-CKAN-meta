@@ -24,6 +24,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          # Always work from the tip of main, not the commit the run was dispatched
+          # on. Re-running a stale workflow_dispatch run would otherwise check out
+          # that old commit, append to an outdated builds.json, and fail to push
+          # with a non-fast-forward. Pinning to main keeps re-runs idempotent: the
+          # up-to-date builds.json already lists the version, so nothing is added.
+          ref: main
 
       - name: Fetch latest version and update builds.json
         id: update
