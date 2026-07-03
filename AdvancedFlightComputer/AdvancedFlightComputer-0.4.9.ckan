@@ -1,0 +1,31 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlightComputer",
+    "name": "AdvancedFlightComputer",
+    "abstract": "Extra maneuver planning tools for Kitten Space Agency.",
+    "author": "Maxi",
+    "version": "0.4.9",
+    "ksp_version": "2026.7.0.4826",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/advanced-flight-computer.783/",
+        "spacedock": "https://spacedock.info/mod/4253/AdvancedFlightComputer",
+        "repository": "https://github.com/Maximilian-Nesslauer/KSA-AdvancedFlightComputer",
+        "bugtracker": "https://github.com/Maximilian-Nesslauer/KSA-AdvancedFlightComputer/issues",
+        "discussions": "https://github.com/Maximilian-Nesslauer/KSA-AdvancedFlightComputer/discussions"
+    },
+    "tags": [
+        "control"
+    ],
+    "download": "https://github.com/Maximilian-Nesslauer/KSA-AdvancedFlightComputer/releases/download/v0.4.9/AdvancedFlightComputer.zip",
+    "download_size": 84820,
+    "download_hash": {
+        "sha1": "A2C32D4D386EB8A8CD5A45382C9ACC4A8734578A",
+        "sha256": "4382CF28F9395CD95B9D9669870F8AEA1967DF190FED8D8729F8118BA652EDBB"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 214249,
+    "release_date": "2026-07-03T08:26:35Z",
+    "x_generated_by": "netkan"
+}

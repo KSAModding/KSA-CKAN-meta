@@ -1,0 +1,31 @@
+{
+    "spec_version": 1,
+    "identifier": "MeasureTools",
+    "name": "MeasureTools",
+    "abstract": "Click-to-measure ruler and protractor tools for Kitten Space Agency.",
+    "author": "Maxi",
+    "version": "1.0.5",
+    "ksp_version": "2026.7.0.4826",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/measuretools.992/",
+        "spacedock": "https://spacedock.info/mod/4319/MeasureTools",
+        "repository": "https://github.com/Maximilian-Nesslauer/KSA-MeasureTools",
+        "bugtracker": "https://github.com/Maximilian-Nesslauer/KSA-MeasureTools/issues",
+        "discussions": "https://github.com/Maximilian-Nesslauer/KSA-MeasureTools/discussions"
+    },
+    "tags": [
+        "information"
+    ],
+    "download": "https://github.com/Maximilian-Nesslauer/KSA-MeasureTools/releases/download/v1.0.5/MeasureTools.zip",
+    "download_size": 20826,
+    "download_hash": {
+        "sha1": "A9A97B8CAD8982839A0ACB3775DC1FF1687257E8",
+        "sha256": "931167C425022F7FF4820BA1A0C40A02697FEB35EA7F8572E513974B4A99D8ED"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 42048,
+    "release_date": "2026-07-03T08:24:52Z",
+    "x_generated_by": "netkan"
+}
