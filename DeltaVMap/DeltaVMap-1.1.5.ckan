@@ -17,6 +17,13 @@
     "tags": [
         "information"
     ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5",
+            "max_version": "0.4.5"
+        }
+    ],
     "download": "https://github.com/Maximilian-Nesslauer/KSA-DeltaVMap/releases/download/v1.1.5/DeltaVMap.zip",
     "download_size": 93713,
     "download_hash": {

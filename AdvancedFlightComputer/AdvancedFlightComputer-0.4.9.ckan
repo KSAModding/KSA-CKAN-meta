@@ -18,6 +18,13 @@
     "tags": [
         "control"
     ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5",
+            "max_version": "0.4.5"
+        }
+    ],
     "download": "https://github.com/Maximilian-Nesslauer/KSA-AdvancedFlightComputer/releases/download/v0.4.9/AdvancedFlightComputer.zip",
     "download_size": 84820,
     "download_hash": {

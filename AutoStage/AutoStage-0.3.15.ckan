@@ -17,6 +17,13 @@
     "tags": [
         "control"
     ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5",
+            "max_version": "0.4.5"
+        }
+    ],
     "download": "https://github.com/Maximilian-Nesslauer/KSA-AutoStage/releases/download/v0.3.15/AutoStage.zip",
     "download_size": 20952,
     "download_hash": {

@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "StarMap",
+    "name": "StarMap",
+    "abstract": "Mod loader that runs code mods for Kitten Space Agency.",
+    "author": "klaaswhite",
+    "version": "0.4.5",
+    "ksp_version": "2026.7.0.4826",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/StarMapLoader/StarMap",
+        "repository": "https://github.com/StarMapLoader/StarMap",
+        "bugtracker": "https://github.com/StarMapLoader/StarMap/issues",
+        "manual": "https://github.com/StarMapLoader/StarMap/wiki"
+    },
+    "tags": [
+        "library"
+    ],
+    "install": [
+        {
+            "find_regexp": ".*",
+            "install_to": "mods/StarMap",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/StarMapLoader/StarMap/releases/download/0.4.5/StarMapStandalone-0.4.5.zip",
+    "download_size": 1100358,
+    "download_hash": {
+        "sha1": "D83B33193ADA3FF12C506A7E9E4F196EFE9AFAB1",
+        "sha256": "D1E4119C1045AACE8D661B9EB7F6ADBFDA3A540FE950BB9B11FF4A8092412185"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3088007,
+    "release_date": "2026-04-10T16:08:15Z",
+    "x_generated_by": "netkan"
+}
