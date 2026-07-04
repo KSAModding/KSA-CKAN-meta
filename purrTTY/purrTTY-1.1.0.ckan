@@ -16,6 +16,13 @@
     "tags": [
         "utility"
     ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5",
+            "max_version": "0.4.5"
+        }
+    ],
     "download": "https://github.com/meow-sci/purrtty/releases/download/v1.1.0/purrTTY-1.1.0.zip",
     "download_size": 24367747,
     "download_hash": {
