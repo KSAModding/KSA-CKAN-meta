@@ -1,0 +1,37 @@
+{
+    "spec_version": 1,
+    "identifier": "Compendium",
+    "name": "Compendium",
+    "abstract": "In-game window providng a handy atlas style catalog of loaded celestial bodies, as well as orbit line visibility toggles!",
+    "author": "Briar Thrain",
+    "version": "0.9.9",
+    "ksp_version": "2026.7.0.4826",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://spacedock.info/mod/4074/Compendium",
+        "spacedock": "https://spacedock.info/mod/4074/Compendium",
+        "repository": "https://github.com/meow-sci/Compendium",
+        "bugtracker": "https://github.com/meow-sci/Compendium/issues",
+        "x_screenshot": "https://spacedock.info/content/nanonestor_179255/Compendium/Compendium-1765528302.png"
+    },
+    "tags": [
+        "utility"
+    ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4074/Compendium/download/0.9.9",
+    "download_size": 281470,
+    "download_hash": {
+        "sha1": "F3EB317585498463FEDFF8E241ADD8E3F83C502A",
+        "sha256": "623DFB1A6721284A688619B34FE7AE559D1E304F1856D55D7EC2858D907F2083"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1862854,
+    "release_date": "2026-06-27T19:16:28.283313Z",
+    "x_generated_by": "netkan"
+}
