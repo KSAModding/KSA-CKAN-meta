@@ -1,0 +1,35 @@
+{
+    "spec_version": 1,
+    "identifier": "ModMenu",
+    "name": "ModMenu",
+    "abstract": "Adds a Mods tab to the menu bar at the top of Kitten Space Agency.",
+    "author": "MrJeranimo",
+    "version": "0.2.1",
+    "ksp_version": "2026.7.0.4892",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/MrJeranimo/ModMenu",
+        "repository": "https://github.com/MrJeranimo/ModMenu",
+        "bugtracker": "https://github.com/MrJeranimo/ModMenu/issues"
+    },
+    "tags": [
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5"
+        }
+    ],
+    "download": "https://github.com/MrJeranimo/ModMenu/releases/download/v0.2.1/ModMenu.zip",
+    "download_size": 10343,
+    "download_hash": {
+        "sha1": "E0444AD7A6D8C105DD98A60845D381AE685C4EB5",
+        "sha256": "D92E09219F107C253BAA71937626F8503767882C10D25CF3885D1088FC528942"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 20464,
+    "release_date": "2026-06-27T18:24:53Z",
+    "x_generated_by": "netkan"
+}
