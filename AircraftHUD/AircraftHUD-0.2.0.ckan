@@ -1,0 +1,39 @@
+{
+    "spec_version": 1,
+    "identifier": "AircraftHUD",
+    "name": "AircraftHUD",
+    "abstract": "A heads-up display for aircraft in Kitten Space Agency.",
+    "author": "UriahGnu",
+    "version": "0.2.0",
+    "ksp_version": "2026.7.0.4892",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/aircraft-hud.618/",
+        "repository": "https://github.com/uriahgnu/KSA_AircraftHUD",
+        "bugtracker": "https://github.com/uriahgnu/KSA_AircraftHUD/issues"
+    },
+    "tags": [
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5"
+        },
+        {
+            "name": "ModMenu",
+            "min_version": "0.2.1"
+        }
+    ],
+    "download": "https://github.com/uriahgnu/KSA_AircraftHUD/releases/download/0.2.0/AircraftHUD-v0.2.0.zip",
+    "download_size": 24217,
+    "download_hash": {
+        "sha1": "054DCB87FBA565077F78F206AC8B4AE36C250625",
+        "sha256": "A14207948138756EDA1D88F51B05B0E8E1295DAEAC30480F4B29724EB8E03EC3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 55445,
+    "release_date": "2026-07-14T17:54:30Z",
+    "x_generated_by": "netkan"
+}
