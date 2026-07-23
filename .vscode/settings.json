@@ -2,7 +2,7 @@
     "json.schemas": [
         {
             "fileMatch": ["*.ckan", "*.frozen"],
-            "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema"
+            "url": "https://raw.githubusercontent.com/KSAModding/CKAN-KSA/master/CKAN.schema"
         }
     ]
 }

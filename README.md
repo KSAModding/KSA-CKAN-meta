@@ -6,12 +6,12 @@ If you're wondering what the CKAN is, start with [this README](https://github.co
 
 > Note: KSA support for CKAN is still under active development. Once the indexer
 > is wired up, the `.ckan` files here will be generated automatically from the
-> templates in [KSA-NetKAN](https://github.com/KSP-CKAN/KSA-NetKAN);
+> templates in [KSA-NetKAN](https://github.com/KSAModding/KSA-NetKAN);
 > until then, entries may be added by hand.
 
 ### Opening issues
 
-For metadata issues (wrong information about a mod, a missing version, or an incorrect install), open an issue on the [KSA-NetKAN repository](https://github.com/KSP-CKAN/KSA-NetKAN/issues).
+For metadata issues (wrong information about a mod, a missing version, or an incorrect install), open an issue on the [KSA-NetKAN repository](https://github.com/KSAModding/KSA-NetKAN/issues).
 
 For issues about CKAN as a whole, open an issue on the [CKAN repository](https://github.com/KSP-CKAN/CKAN/issues).
 
