@@ -1,0 +1,37 @@
+{
+    "spec_version": 1,
+    "identifier": "StageInfo",
+    "name": "StageInfo",
+    "abstract": "Extra info and flight performance readouts in the stock staging window for Kitten Space Agency.",
+    "author": "Maxi",
+    "version": "0.5.0",
+    "ksp_version": "2026.7.0.4860",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/stageinfo.905/",
+        "spacedock": "https://spacedock.info/mod/4256/StageInfo",
+        "repository": "https://github.com/Maximilian-Nesslauer/KSA-StageInfo",
+        "bugtracker": "https://github.com/Maximilian-Nesslauer/KSA-StageInfo/issues"
+    },
+    "tags": [
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5",
+            "max_version": "0.4.5"
+        }
+    ],
+    "download": "https://github.com/Maximilian-Nesslauer/KSA-StageInfo/releases/download/v0.5.0/StageInfo.zip",
+    "download_size": 33581,
+    "download_hash": {
+        "sha1": "33DC43F100D2CC8035A0398BD3C79A6A06720934",
+        "sha256": "DD260117FF09F4CA2CDA92620A04BA19E95DDDBFD8B07E9063ED9E175693C194"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 75322,
+    "release_date": "2026-07-08T17:25:33Z",
+    "x_generated_by": "netkan"
+}

@@ -19,8 +19,13 @@
     "depends": [
         {
             "name": "StarMap",
-            "min_version": "0.4.5",
-            "max_version": "0.4.5"
+            "min_version": "0.4.5"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ModMenu",
+            "min_version": "0.2.1"
         }
     ],
     "download": "https://github.com/meow-sci/purrtty/releases/download/v1.1.0/purrTTY-1.1.0.zip",
