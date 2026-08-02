@@ -21,7 +21,7 @@
         {
             "name": "StarMap",
             "min_version": "0.4.5",
-            "max_version": "0.4.5"
+            "max_version": "0.4.6"
         }
     ],
     "download": "https://github.com/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns/releases/download/v0.1.21/AutoRemoveFinishedBurns.zip",

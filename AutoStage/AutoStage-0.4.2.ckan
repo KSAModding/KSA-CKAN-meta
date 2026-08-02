@@ -21,7 +21,7 @@
         {
             "name": "StarMap",
             "min_version": "0.4.5",
-            "max_version": "0.4.5"
+            "max_version": "0.4.6"
         }
     ],
     "download": "https://github.com/Maximilian-Nesslauer/KSA-AutoStage/releases/download/v0.4.2/AutoStage.zip",
