@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSA-Multiplayer",
+    "name": "KSA Multiplayer",
+    "abstract": "Fly together in Kitten Space Agency - shared universe, cross-player docking, craft sharing and chat, with a dedicated server for Windows and Linux.",
+    "author": "racerx2",
+    "version": "0.4.0",
+    "ksp_version": "2026.8.19.5261",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/racerx2/KSA-Multiplayer-Mod",
+        "repository": "https://github.com/racerx2/KSA-Multiplayer-Mod",
+        "bugtracker": "https://github.com/racerx2/KSA-Multiplayer-Mod/issues",
+        "spacedock": "https://spacedock.info/mod/4068/KSA-Multiplayer-Mod"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5"
+        }
+    ],
+    "install": [
+        {
+            "find": "Multiplayer",
+            "install_to": "mods"
+        }
+    ],
+    "download": "https://github.com/racerx2/KSA-Multiplayer-Mod/releases/download/v0.4.0/Multiplayer.zip",
+    "download_size": 98220,
+    "download_hash": {
+        "sha1": "FDCEE9C91F8D795F410F9827DDC6C457D0F6F58F",
+        "sha256": "073EAFB43D9522E87E45C52FC3A1E509303C5E8E44EE6A0C3CCC7C7F11AC2B4B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 239792,
+    "release_date": "2026-08-22T13:56:34Z",
+    "x_generated_by": "netkan"
+}
