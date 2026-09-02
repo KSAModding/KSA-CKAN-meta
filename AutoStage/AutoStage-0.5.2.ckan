@@ -1,0 +1,37 @@
+{
+    "spec_version": 1,
+    "identifier": "AutoStage",
+    "name": "AutoStage",
+    "abstract": "Automatic staging for Kitten Space Agency.",
+    "author": "Maxi",
+    "version": "0.5.2",
+    "ksp_version": "2026.9.0.5402",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forums.ahwoo.com/threads/autostage.891/",
+        "spacedock": "https://spacedock.info/mod/4254/AutoStage",
+        "repository": "https://github.com/Maximilian-Nesslauer/KSA-AutoStage",
+        "bugtracker": "https://github.com/Maximilian-Nesslauer/KSA-AutoStage/issues"
+    },
+    "tags": [
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "StarMap",
+            "min_version": "0.4.5",
+            "max_version": "0.4.6"
+        }
+    ],
+    "download": "https://github.com/Maximilian-Nesslauer/KSA-AutoStage/releases/download/v0.5.2/AutoStage.zip",
+    "download_size": 27728,
+    "download_hash": {
+        "sha1": "94C0778182E739CCF27806B9A3E4DC363A0C96AC",
+        "sha256": "56EC2170AF8BEC5148CAC35AEC2846B43EC4E48E97741B390BF8EF69B204801B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 60284,
+    "release_date": "2026-09-02T09:48:09Z",
+    "x_generated_by": "netkan"
+}
